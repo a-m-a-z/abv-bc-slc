@@ -31,9 +31,6 @@ describe("function to get prime number", function() {
     expect(getPrime(15)).toEqual([ 2, 3, 5, 7, 11, 13 ]);
   });
 
-  it("should return 2  for value 2", function() {
-    expect(getPrime(0)).toEqual("invalid");
-  });
 
 
 });
